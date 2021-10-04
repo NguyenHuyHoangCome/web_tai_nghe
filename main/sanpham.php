@@ -8,7 +8,7 @@
         <?php
         while($row_pro1 = mysqli_fetch_array($query_pro1)){
         ?>
-             <form method="post" action="giohang.php?action=add&code=<?php echo $row_pro1['code'] ?>">
+             <form method="post" action="../giohang.php?action=add&code=<?php echo $row_pro1['code'] ?>">
                 <div class="allsp1">
                 <h2 style="margin-top: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  margin-bottom: 20px; ">CHI TIẾT SẢN PHẨM</h2>
                 <div class="allsp">
