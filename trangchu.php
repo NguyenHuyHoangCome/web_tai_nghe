@@ -35,7 +35,7 @@
   
      
     ?>
- <div class="container">
+ <div class="container" style="max-width: 100%;">
         <div class="box">
           <img src="https://bizweb.dktcdn.net/100/208/437/themes/765059/assets/slider_1.png?1591937897729./f2.jpg">
          
