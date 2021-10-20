@@ -1,9 +1,9 @@
 <?php
 class DBController {
-	private $host = "mysql5031.site4now.net";
-	private $user = "a7aa2a_hoangca";
-	private $password = "hoang2001";
-	private $database = "db_a7aa2a_hoangca";
+	private $host = "localhost";
+	private $user = "root";
+	private $password = "";
+	private $database = "testdb";
 	private $conn;
 	
 	function __construct() {
@@ -29,5 +29,6 @@ class DBController {
 		$rowcount = mysqli_num_rows($result);
 		return $rowcount;	
 	}
+
 }
 ?>

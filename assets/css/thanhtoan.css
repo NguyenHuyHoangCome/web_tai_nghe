@@ -58,7 +58,7 @@
 }
 .container .ctleft .main .mainr{
   
-    width: 40%;
+    width: 45%;
     height: auto;
 }
 .container .ctleft .main .mainr .arlet{
@@ -104,11 +104,11 @@
     margin-left: 100px;
 }
 .container .ctright .quantity{
-    font-size: .78em;
+    font-size: .99em;
     white-space: nowrap;
     padding: 0 .62em;
     border-radius: 2em;
-    background-color: #2a9dcc;
+    background-color: #f84242;
     color: #fff;
     position: absolute;
     right: -.1em;

@@ -30,46 +30,46 @@
                                 <div class="layercon">
                                     <ul>
                                     <li>
-                                        <a href="index.php?quanly=headphone&id1=1">BEATS SOLO</a>
+                                        <a href="index.php?quanly=head-phone-cate&id1=1">BEATS SOLO</a>
                                     </li>
                                     <li>
-                                        <a href="">BEATS STUDIO</a>
+                                        <a href="index.php?quanly=head-phone-cate&id1=2">BEATS STUDIO</a>
                                     </li>
                                     <li>
-                                        <a href="">BEATS PRO</a>
+                                        <a href="index.php?quanly=head-phone-cate&id1=3">BEATS PRO</a>
                                     </li>
                                     <li>
-                                        <a href="">BEATS EP</a>
+                                        <a href="index.php?quanly=head-phone-cate&id1=4">BEATS EP</a>
                                     </li>
                                     </ul>  
                                 </div>
                             </li>
                             <li>
-                                <a class="iconcona" href="index.php?quanly=earphone">EARPHONES
+                                <a class="iconcona" href="index.php?quanly=earphone&id=2">EARPHONES
                                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                 </a>
                                 <div class="layercon">
                                     <ul>
                                         <li>
-                                            <a href="">URBEATS</a>
+                                            <a href="index.php?quanly=earphone-cate&id1=5">URBEATS</a>
                                         </li>
                                         <li>
-                                            <a href="">POWERBEATS</a>
+                                            <a href="index.php?quanly=earphone-cate&id1=6">POWERBEATS</a>
                                         </li>
                                         <li>
-                                            <a href="">BEATS X</a>
+                                            <a href="index.php?quanly=earphone-cate&id1=7">BEATS X</a>
                                         </li>
                                     </ul>  
                                 </div>
                             </li>
                             <li>
-                                <a href="index.php?quanly=speaker">BEATS SPEAKERS</a>
+                                <a href="index.php?quanly=speaker&id=3">BEATS SPEAKERS</a>
                             </li>
                             <li>
-                                <a href="index.php?quanly=phukien">PHỤ KIỆN BEATS</a>
+                                <a href="index.php?quanly=phukien&id=6">PHỤ KIỆN BEATS</a>
                             </li>
                             <li>
-                                <a href="index.php?quanly=suachua">SỬA CHỮA TAI NGHE BEATS</a>
+                                <a href="./suachua.php">SỬA CHỮA TAI NGHE BEATS</a>
                             </li>
                         </ul>
                     </div>
@@ -140,7 +140,7 @@
 
             </li> <li>
                 <div class="_1item">
-                    <a href="index.php?quanly=phukien" class="layer1">
+                    <a href="index.php?quanly=phukien&id=6" class="layer1">
                         PHỤ KIỆN
                     </a>
                 </div>
@@ -173,7 +173,7 @@
             </li> -->
             <li>
                 <div class="_1item">
-                    <a href="index.php?quanly=suachua" class="layer1">
+                    <a href="./suachua.php" class="layer1">
                         SỬA CHỮA
                     </a>
                 </div>
@@ -181,7 +181,7 @@
             </li>
             <li>
                 <div class="_1item">
-                    <a href="index.php?quanly=lienhe" class="layer1">
+                    <a href="./lienhe.php" class="layer1">
                         LIÊN HỆ
                     </a>
                 </div>

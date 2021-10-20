@@ -1,6 +1,8 @@
 <?php
  
-    $sql_pro1 = "SELECT * FROM category,product WHERE product.id_cate =category.id_category ORDER BY product.id_product DESC";
+    $sql_pro1 = "SELECT * FROM category,product WHERE product.id_cate =category.id_category ORDER BY product.id_product DESC"; 
+
+
     $query_pro1 = mysqli_query($mysqli , $sql_pro1);
 
 ?>
@@ -12,14 +14,41 @@
                 ?>
                   <div class="itemconbephai">
                     <div class="divconphai">
-                        <a href="">
+                        <a href="index.php?quanly=sanpham&id=<?php echo $row_pro1['id_product'] ?>">
                         <img src="<?=$row_pro1['picture'] ?>" alt="" class="anhconbe">
                         <span><?=$row_pro1['title'] ?></span>
                         <span><?=$row_pro1['description'] ?></span>
                         </a>
-                        <div class="chutrenphai">
-                            <a onclick="popupOpen()" href="">MUA NGAY</a>
+                        <form method="post" action="giohang.php?action=add&code=<?php echo $row_pro1['code'] ?>">
+                        <div class="chutrenphai" style="height: 34px;">
+
+                        <a  type="submit" onclick="popupOpen()" >MUA NGAY</a>
+                        <button type="submit" 
+                        
+                        style="color: black;
+                               
+                                width: 100%;
+                                font-size: 17px;
+                                background-color: black;
+                                opacity: 0.0;
+                                height : 20px;
+                                padding-top: 0px;
+                             
+                                
+                        "></button>
+                       
+                        
+                            <input type="text" class="product-quantity" name="quantity" value="1" size="2" style="background-color: #fff;
+                         height: 50px;
+                        width: 70px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        display: none;
+                        "/>
+                           
+                            
                         </div>
+                        </form>
                         <div class="chuduoiphai">
                             <a onclick="popupOpen()" href="index.php?quanly=sanpham&id=<?php echo $row_pro1['id_product'] ?>">XEM NHANH</a>
                         </div>
@@ -31,4 +60,5 @@
 
                
 </div>    
+
    

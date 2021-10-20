@@ -58,7 +58,7 @@
                     <i class="fas fa-map-marker-alt icon" ></i> 12 ngõ 860 phố Minh Khai, Hai Bà Trưng, Hà Nội.<br><br>
                     <i class="fas fa-map-marker-alt icon" ></i> 12 ngõ 282 Nguyễn Khoái, Hai Bà Trưng, Hà Nội.<br><br>
                     <i class="fa fa-phone" aria-hidden="true"></i> 036.4982.403 <br><br>
-                    <i class="fa fa-envelope" aria-hidden="true"></i> SocXamXinhXinh@gmail.com 
+                    <i class="fa fa-envelope" aria-hidden="true"></i> ComeHome&SocXam@gmail.com 
 
          
                 
